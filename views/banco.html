@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Eat Clean Cadastro</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/banco.css">
+</head>
+
+<body>
+    <link href="https://fonts.googleapis.com/css2?family=Kulim+Park&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Lobster&family=Oswald:wght@500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600&display=swap" rel="stylesheet">
+
+    <header>
+        <div class="navbar-container">
+            <input type="checkbox" id="check" checked>
+            <label id="icone" for="check"><img src="../images//menu.png" width="20"></label>
+            <div class="barra">
+                <nav>
+                    <a href="../views/inicio.html">
+                        <div class="link">HOME</div>
+                    </a>
+                    <a href="../views/contato.html">
+                        <div class="link">CONTATO</div>
+                    </a>
+                    <a href="../index.html">
+                        <div class="link">SAIR</div>
+                    </a>
+                </nav>
+            </div>
+            <a href="https://www.eatcleanbrasil.com.br/">
+                <img src="../images/logo.jpg" alt="" width="52" class="logo">
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="box_one">
+            <div class="pig">
+                <img src="../images/pig.png" alt="" width="90">
+            </div>
+            <div class="t1">
+                <p>INSIRA SEUS DADOS BANCÁRIOS</p>
+            </div>
+        </div>
+        <div class="informations">
+            <form method="get" action="/views/confirm.html" class="login">
+                <div class="form-group_1">
+                    Nome Completo<input type="text" class="form-control" placeholder="Digite seu nome" required>
+                </div>
+                <br>
+                <div class="form-group_1">
+                    Banco<input type="text" class="form-control" placeholder="Itaú, Bradesco, Nubank" required>
+                </div>
+                <br>
+                <div class="form-group_1">
+                    Número da conta<input type="text" class="form-control" placeholder="Digite o Nº da sua conta"
+                        required>
+                </div>
+                <br>
+                <div class="form-group_1">
+                    Agência<input type="text" class="form-control" placeholder="Digite o Nº da sua agência" required>
+                </div>
+                <br>
+                <div class="form-group_1">
+                    CPF<input type="text" class="form-control" placeholder="Digite seu CPF" required>
+                </div>
+                <a href="views/confirm.html">
+                    <input type="submit" name="enviar" value="Enviar" class="button">
+                </a>
+            </form>
+            <br>
+            </form>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

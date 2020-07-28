@@ -1,0 +1,143 @@
+.navbar-container {
+  position: fixed;
+  width: 100%;
+  height: 57px;
+  left: -5px;
+  top: 0px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+
+.logo {
+  position: absolute;
+  padding-top: 9px;
+  padding-left: 11px;
+}
+
+#icone {
+  position: absolute;
+  right: 0;
+  padding-top: 17px;
+  padding-right: 15px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+#check {
+  position: absolute;
+  display: none;
+  left: 95%;
+  padding-right: 10px;
+  margin-top: 24px;
+}
+
+.barra {
+  position: absolute;
+  left: 76%;
+  margin-top: 0px;
+  height: 10%;
+  width: 50%;
+  transition: all 0.1s linear;
+  z-index: 1;
+  right: 100%;
+}
+
+nav {
+  width: 50%;
+  position: absolute;
+  top: 60px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.link {
+  background-color: #90bd3e;
+  padding: 8px;
+  font-family: "Inter", sans-serif;
+  color: white;
+  transition: all 0.2s linear;
+  border-bottom: 2px solid rgb(233, 233, 233);
+}
+
+.link:hover {
+  background-color: #5d801c;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#check:checked ~ .barra {
+  transform: translateX(100%);
+}
+
+.box_one {
+  position: absolute;
+  right: 50%;
+  width: 300px;
+  height: 100px;
+  transform: translateX(50%);
+  top: 15%;
+}
+
+.pig {
+  position: absolute;
+  padding-left: 110px;
+  top: -20px;
+}
+
+.t1 {
+  position: absolute;
+  font-family: "Amatic SC", cursive;
+  font-size: 25px;
+  padding-top: 70px;
+  margin-left: 44px;;
+}
+
+.informations {
+  position: absolute;
+  width: 350px;
+  height: 700px;
+  right: 50%;
+  transform: translateX(50%);
+  top: 8%;
+}
+
+.informations {
+  font-family: "Inter", sans-serif;
+}
+
+.form-control {
+  background-color: #ececece8;
+  border-radius: 8px;
+  border-width: 1, 5px;
+  width: 250px;
+  height: 34px;
+}
+
+.login {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 50px;
+}
+
+label {
+  padding: 2px;
+}
+
+.button {
+  position: absolute;
+  border-radius: 12px;
+  color: white;
+  background-color: #9dc44d;
+  border-width: 0px;
+  width: 100px;
+  height: 32px;
+  font-family: "Inter", sans-serif;
+  right: 50%;
+  transform: translateX(50%);
+  margin-top: 35px;
+}

@@ -1,0 +1,133 @@
+.space-container {
+  position: fixed;
+  z-index: 2;
+  width: 270px;
+  height: 100px;
+  bottom: 400px;
+  top: 8%;
+  right: 50%;
+  transform: translateX(140px);
+  overflow: visible;
+  align-items: center;
+}
+
+.logotipo {
+  position: absolute;
+  overflow: visible;
+  margin-left: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  width: 200px;
+  height: 81px; 
+  margin-top: 0px;
+  right: 100%;
+  transform: translateX(120px);
+  overflow: visible;
+  color: rgb(75, 75, 75);
+}
+
+.title-a {
+  position: absolute;
+  right: 16%;
+  margin-top: -2  px;
+  font-size: 41px;
+  color: #9dc44d;
+  align-items: center;
+  font-family: "Amatic SC", cursive;
+}
+
+.title-b {
+  position: absolute;
+  right: 13%;
+  margin-top: 44px;
+  font-size: 41px;
+  color: #9dc44d;
+  align-items: center;
+  font-family: "Amatic SC", cursive;
+}
+
+.girl {
+  position: absolute;
+  left: 83%;
+  top: -11%;
+  -webkit-filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.25));
+  background-image: url(/* influencer 3.png */);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  image-rendering: auto;
+}
+
+.boy {
+  position: absolute;
+  left: 91%;
+  top: -10%;
+  -webkit-filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.25));
+  background-image: url(/* influencer 3.png */);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  image-rendering: auto;
+}
+
+.titulo-2 {
+  color: rgb(75, 75, 75);
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.quadro-container {
+  position: absolute;
+  z-index: 2;
+  padding: 35px;
+  width: 351px;
+  height: 323px;
+  right: 50%;
+  transform: translateX(50%);
+  margin-top: 170px;
+  overflow: visible;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.25);
+  align-items: center;
+}
+
+.form-group {
+  font-family: "Inter", sans-serif;
+}
+
+.form-control {
+  background-color: #ececece8;
+  border-radius: 8px;
+  border-width: 1, 5px;
+}
+
+.btn {
+  position: absolute;
+  border-radius: 12px;
+  background-color: #9dc44d;
+  border-width: 0px;
+  width: 100px;
+  font-family: 'Saira Condensed', sans-serif;
+  right: 50%;
+  transform: translateX(50%);
+  margin-top: 10px;
+  
+}
+
+.fim {
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  right: 50%;
+  transform: translateX(65px);
+  overflow: visible;
+  color: rgb(75, 75, 75);
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+}

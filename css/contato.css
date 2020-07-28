@@ -1,0 +1,159 @@
+.navbar-container {
+  position: fixed;
+  width: 100%;
+  height: 57px;
+  left: -5px;
+  top: 0px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+
+.logo {
+  position: absolute;
+  padding-top: 9px;
+  padding-left: 11px;
+}
+
+#icone {
+  position: absolute;
+  right: 0;
+  padding-top: 17px;
+  padding-right: 15px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+#check {
+  position: absolute;
+  display: none;
+  left: 95%;
+  padding-right: 10px;
+  margin-top: 24px;
+}
+
+.barra {
+  position: absolute;
+  left: 76%;
+  margin-top: 0px;
+  height: 10%;
+  width: 50%;
+  transition: all 0.1s linear;
+  z-index: 1;
+  right: 100%;
+}
+
+nav {
+  width: 50%;
+  position: absolute;
+  top: 60px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.link {
+  background-color: #90bd3e;
+  padding: 8px;
+  font-family: "Inter", sans-serif;
+  color: white;
+  transition: all 0.2s linear;
+  border-bottom: 2px solid rgb(233, 233, 233);
+}
+
+.link:hover {
+  background-color: #5d801c;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#check:checked ~ .barra {
+  transform: translateX(100%);
+}
+
+.box-container {
+  position: absolute;
+  width: 230px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 15%;
+}
+
+.t1 {
+  position: relative;
+  padding-left: 70px;
+  padding-top: 65px;
+  font-size: 38px;
+  width: 260px;
+  font-family: "Amatic SC", cursive;
+  color: #3a3a3a;
+}
+
+.esquerda {
+  position: absolute;
+  padding-top: 73px;
+  margin-left: 34px;
+}
+
+.direita {
+  margin-left: 168px;
+  position: absolute;
+  top: 53%;
+}
+
+.subtitulo {
+  position: absolute;
+  width: 230px;
+  top: 42%;
+  right: 50%;
+  transform: translateX(75%);
+  color: #3a3a3a;
+  font-size: 13px;
+  font-family: "Saira Condensed", sans-serif;
+}
+
+.sub {
+  position: absolute;
+  margin-left: 25px;
+  color: white;
+  margin-top: 5px;
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 20px;
+}
+
+.title_number {
+  position: absolute;
+  width: 230px;
+  top: 60%;
+  right: 50%;
+  transform: translateX(55%);
+  color: #607e2a;
+  font-size: 13px;
+  font-family: "Saira Condensed", sans-serif;
+}
+
+.list_number {
+  position: absolute;
+  left: 50%;
+  margin-left: 1px;
+  transform: translateX(-50%);
+  top: 40%;
+  width: 295px;
+  height: 200px;
+  font-family: "Inter", sans-serif;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.25);
+}
+
+.color {
+  color: #90bd3e;
+}
+
+.list_name {
+  position: absolute;
+  margin-top: 22px;
+  padding-left: 10px;
+}

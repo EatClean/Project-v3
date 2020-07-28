@@ -1,0 +1,250 @@
+.navbar-container {
+  position: fixed;
+  width: 100%;
+  height: 57px;
+  left: -5px;
+  top: 0px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+
+.logo {
+  position: absolute;
+  padding-top: 9px;
+  padding-left: 11px;
+}
+
+#icone {
+  position: absolute;
+  right: 0;
+  padding-top: 17px;
+  padding-right: 15px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+#check {
+  position: absolute;
+  display: none;
+  left: 95%;
+  padding-right: 10px;
+  margin-top: 24px;
+}
+
+.barra {
+  position: absolute;
+  left: 76%;
+  margin-top: 0px;
+  height: 10%;
+  width: 50%;
+  transition: all .1s linear;
+  z-index: 1;
+  right: 100%;
+}
+
+nav {
+    width: 50%;
+    position: absolute;
+    top: 60px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.link {
+    background-color: #90bd3e;
+    padding: 8px;
+    font-family: "Inter", sans-serif;
+    color: white;
+    transition: all .2s linear;
+    border-bottom: 2px solid rgb(233, 233, 233);
+}
+
+.link:hover {
+    background-color: #5d801c;
+}
+
+a:link {
+  text-decoration:none;
+}
+
+
+#check:checked ~ .barra {
+    transform: translateX(100%);
+}
+
+.box-container {
+  position: absolute;
+  width: 230px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 15%;
+}
+
+.t1 {
+  position: relative;
+  padding-left: 2px;
+  top: 10%;
+  font-size: 38px;
+  width: 260px;
+  font-family: "Amatic SC", cursive;
+  color: #3a3a3a;
+}
+
+.esquerda {
+  position: absolute;
+  padding-top: 7px;
+  margin-left: -25px;
+}
+
+.direita {
+  margin-left: 230px;
+  position: absolute;
+  top: 14%;
+}
+
+.quadro_one-container {
+  position: absolute;
+  width: 120px;
+  height: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 34%;
+  background: #8a8a8a;
+  border-radius: 10px;
+}
+
+.sub-cash {
+  position: absolute;
+  top: 44%;
+  right: 50%;
+  width: 23 0px;
+  transform: translateX(50%);
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+}
+
+.subtitulo {
+  position: absolute;
+  width: 230px;
+  top: 30.5%;
+  right: 50%;
+  transform: translateX(61%);
+  color: #3a3a3a;
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+}
+
+.sub {
+  position: absolute;
+  margin-left: 10px;
+  color: white;
+  margin-top: 5px;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+}
+
+.title_number {
+  position: absolute;
+  width: 230px;
+  top: 60%;
+  right: 50%;
+  transform: translateX(55%);
+  color: #607e2a;
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+}
+
+.box_number {
+  position: absolute;
+  width: 82px;
+  height: 39px;
+  right: 50%;
+  padding-left: 2px;
+  transform: translateX(50%);
+  top: 66%;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0,0,0, 0.05);
+}
+
+.title_number {
+  position: absolute;
+  width: 308px;
+  font-family: "Inter", sans-serif;
+  color: #3a3a3a;
+  top: 60%;
+  right: 50%;
+  transform: translateX(51%);
+}
+
+.config {
+  margin-left: 28px;
+  padding-top: 8px;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+}
+
+.flecha {
+  position: absolute;
+  right: 50%;
+  transform: translateX(11px);
+  top: 28%;
+}
+
+.box-flecha {
+  position: absolute;
+  right: 50%;
+  transform: translateX(90px);
+  top: 66%;
+  width: 38px;  
+  height: 38px;
+  background-color: rgba(255, 251, 251, 0.925);
+  border-radius: 100px;
+}
+
+.quadro_two-container {
+  position: absolute;
+  height: 30px;
+  width: 170px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 80%;
+  background: #383838;
+  border-radius: 3px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sub-two {
+  position: absolute;
+  font-size: 10px;
+  width: 162px;
+  color: white;
+  margin-left: 5px;
+  margin-top: 8px;
+  font-family: "Inter", sans-serif;
+}
+
+.cash {
+  position: absolute;  
+  width: 130px;
+  height: 35px;
+  right: 50%;
+  transform: translateX(50%);
+  top: 46.5%;
+  background-color: rgb(209, 247, 174);
+  border-radius: 8px;
+}
+
+.cash p {
+  margin-left: 19px;
+  margin-top: 5px;
+  font-family: "Inter", sans-serif;
+}
+
+
+.sub-cash {
+  position: absolute;
+  top: 44%;
+}
